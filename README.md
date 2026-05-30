@@ -1,7 +1,16 @@
-# Más allá del prompt
-Agentes especializados para Pentesting con MCP y Burp Suite
+# Más allá del prompt: Agentes especializados para Pentesting con MCP y Burp Suite
+
+> [!NOTE]
+> **Repositorio Oficial de la Charla:** Este proyecto contiene todo el material, arquitectura y código presentado en el **ThreatX Meetup**. 
 
 Este proyecto implementa un entorno de Red Team y auditoría web automatizado y modular, orquestado por Claude Code y potenciado por el Model Context Protocol (MCP). El ecosistema utiliza agentes de Inteligencia Artificial con roles especializados y manuales técnicos dinámicos (Skills) para interactuar de forma segura y transparente con herramientas del sistema operativo, navegadores proxyficados y suites de seguridad.
+
+---
+
+## Material de la Charla
+* 🖥️ **Presentación Oficial (PDF):** puedes descargar las diapositivas completas de la presentación directamente desde el archivo [`Burp Suite con MCP y Claude Code - ThreatX Meetup.pdf`](./Burp%20Suite%20con%20MCP%20y%20Claude%20Code%20-%20ThreatX%20Meetup.pdf) en la raíz de este repositorio.
+
+---
 
 ## Arquitectura del Sistema
 El espacio de trabajo está dividido en componentes de identidad (Agentes), procedimientos (Skills) y archivos de estado que actúan como la memoria compartida del equipo de IA.
