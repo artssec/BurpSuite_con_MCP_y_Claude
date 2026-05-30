@@ -1,1 +1,1 @@
-https://juice-shop.herokuapp.com/
+https://dominio.com/
