@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "burp": {
+      "command": "/usr/bin/java",
+      "args": [
+        "-jar",
+        "/ruta/absoluta/a/mcp-proxy.jar",
+        "--sse-url",
+        "http://127.0.0.1:9876"
+      ]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--proxy-server=http://127.0.0.1:8080",
+        "--ignore-https-errors"
+      ]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/ruta/absoluta/a/tu/entorno/de/trabajo"
+      ]
+    }
+  }
+}
