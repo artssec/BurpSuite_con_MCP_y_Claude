@@ -6,6 +6,7 @@ Este proyecto implementa un entorno de Red Team y auditoría web automatizado y 
 ## Arquitectura del Sistema
 El espacio de trabajo está dividido en componentes de identidad (Agentes), procedimientos (Skills) y archivos de estado que actúan como la memoria compartida del equipo de IA.
 
+```text
 .
 ├── .claude/
 │   ├── agents/           # Configuración e identidad de los agentes (web-crawler, burp-analyst, etc.)
@@ -16,6 +17,7 @@ El espacio de trabajo está dividido en componentes de identidad (Agentes), proc
 ├── PROGRESS.md           # Registro secuencial global de actividades de los agentes
 ├── FORM.md               # Inventario dinámico de formularios y vectores de ataque detectados
 └── HALLAZGOS/            # Repositorio de vulnerabilidades identificadas y aisladas en formato OWASP
+```
 
 ## Conceptos Básicos: ¿Qué es un Agente, una Skill y un MCP?
 
